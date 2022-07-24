@@ -1,7 +1,7 @@
 import streamlit as st
 from PIL import Image
 from image_classification import teachable_machine_classification
-st.title("Image Classification with Google's Teachable Machine")
+st.title("Image Classification using neural networks")
 st.header("Is it a pizza?")
 st.text("Upload a food image:")
 
