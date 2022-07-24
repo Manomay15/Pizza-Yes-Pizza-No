@@ -7,4 +7,7 @@ The dataset is taken from - https://www.kaggle.com/datasets/carlosrunner/pizza-n
 
 You can test the app here - https://manomay15-pizza-yes-pizza-no-app-ymx8qb.streamlitapp.com/
 
-The accuracy is not the highest though so please forgive any mistakes by the app :)
+The accuracy is not the highest though so please forgive any mistakes made by the app :)
+
+PS: Still working on different architectures
+

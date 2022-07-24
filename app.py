@@ -14,6 +14,6 @@ if uploaded_file is not None:
     label = teachable_machine_classification(image, '5_layer_regularized_dropout.h5')
     print(label)
     if label < 0.5:
-        st.write("It is a pizza")
+        st.write("Yes, it's a pizza!!")
     else:
-        st.write("It is not a pizza")
+        st.write("Nope, my master won't like it :(")
