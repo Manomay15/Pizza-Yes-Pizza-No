@@ -11,7 +11,7 @@ if uploaded_file is not None:
     st.image(image, caption='Uploaded picture.', use_column_width=True)
     st.write("")
     st.write("Classifying...")
-    label = teachable_machine_classification(image, '5_layer_regularized_dropout.h5')
+    label = teachable_machine_classification(image, 'inceptionv3.h5')
     print(label)
     if label < 0.5:
         st.write("Yes, it's a pizza!!")
